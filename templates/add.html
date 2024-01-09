@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>Addition</title>
+    {% endif %}
+</head>
+<body>
+    <p> 
+        Total sum of {{ a }} + {{ b }} is equal <strong>{{ total }}</strong>
+    </p>
+</body>
+</html>
